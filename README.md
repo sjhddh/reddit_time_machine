@@ -12,11 +12,17 @@ Usage:
 
 and then, process it by calling:
 
-`TimeMachine.process()`
+```python
+# remember to init the class first:
+TM = TimeMachine()
+# then process:
+TM.process()
+```
+
 
 Parameters includes:
 
-```
+```python
         :param startdate: start date of time machine, must be used together with enddate.
         :param enddate: end date / main date for time machine, can be used without startdate.
         :param channel: reddit channel
