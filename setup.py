@@ -1,7 +1,7 @@
 # Always prefer setuptools over distutils
-from setuptools import setup, find_packages
-# To use a consistent encoding
 from os import path
+
+from setuptools import setup, find_packages
 
 here = path.abspath(path.dirname(__file__))
 
@@ -17,13 +17,11 @@ setup(
 
     # The project's main homepage.
     url='https://github.com/sjhddh/reddit_time_machine',
+    download_url='https://github.com/sjhddh/reddit_time_machine/archive/0.1.tar.gz',
 
     # Author details
     author='Aaron J. Sun @sjhddh',
     author_email='jhao.sun@gmail.com',
-
-    # Choose your license
-    license='MIT',
 
     # See https://pypi.python.org/pypi?%3Aaction=list_classifiers
     classifiers=[
@@ -38,7 +36,6 @@ setup(
         'Topic :: Software Development :: Build Tools',
 
         # Pick your license as you wish (should match "license" above)
-        'MIT',
 
         # Specify the Python versions you support here. In particular, ensure
         # that you indicate whether you support Python 2, Python 3 or both.

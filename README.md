@@ -1,6 +1,11 @@
 # reddit_time_machine
 A Python package for traveling back to a historical date and extracting reddit channel contents.
 
+To install:
+
+`pip install reddit_time_machine`
+
+
 Usage:
 
 `from reddit_time_machine.model import TimeMachine`
