@@ -22,3 +22,11 @@ Parameters includes:
         :return: success or not
 ```
 
+Note:
+
+I'm still trying to make this package nicer and more functional either as a time machine for multiple platforms or as a reddit easy-to-use package.
+ 
+If you have any questions, please contact me directly through GitHub.
+
+Also, you are very welcome to donate your codes~
+
